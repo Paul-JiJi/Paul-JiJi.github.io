@@ -151,26 +151,39 @@
             <!-- Post -->
             <div class="typo" style="padding: 3rem;">
                 <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<hr>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class="line-numbers language-bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 <p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<p>注：此方法只产生一个md文件，为了方便管理某一md文件中的图片，可以采用如下代码生成同名的文件夹，并将图片放进去以便于调用：</p>
+<p><strong>注</strong>：此方法只产生一个md文件，为了方便管理某一md文件中的图片，可以采用如下代码生成同名的文件夹，并将图片放进去以便于调用：</p>
 <h3 id="Create-a-new-folder"><a href="#Create-a-new-folder" class="headerlink" title="Create a new folder"></a>Create a new folder</h3><pre class="line-numbers language-bash"><code class="language-bash">$ hexo n <span class="token string">"md文件名"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 <p>参考自：<a href="https://www.cnblogs.com/codehome/p/8428738.html?utm_source=debugrun&utm_medium=referral" target="_blank" rel="noopener">Hexo中添加本地图片</a></p>
+<hr>
 <h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class="line-numbers language-bash"><code class="language-bash">$ hexo server<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 <p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
 <h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class="line-numbers language-bash"><code class="language-bash">$ hexo generate<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 <p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
 <h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class="line-numbers language-bash"><code class="language-bash">$ hexo deploy<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<p>注：这是我提交md时一般采用的代码：</p>
+<hr>
+<p><strong>注</strong>：这是我提交md时一般采用的代码：</p>
 <pre class="line-numbers language-bash"><code class="language-bash">$ <span class="token function">cd</span> /e/hexo_workspace/  <span class="token comment" spellcheck="true">#打开hexo工作空间</span>
 $ hexo g -d
 $ hexo s  <span class="token comment" spellcheck="true">#开服务器</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a><br>注：<br>搭建hexo+github借鉴博客：</p>
-<p><a href="https://www.cnblogs.com/liuxianan/p/build-blog-website-by-hexo-github.html" target="_blank" rel="noopener">使用hexo+github搭建免费个人博客详细教程</a></p>
-<p><a href="https://www.cnblogs.com/hsdy/p/10026582.html" target="_blank" rel="noopener">使用Hexo + GitHub Pages 搭建个人博客</a></p>
-<p><a href="https://github.com/miccall/hexo-theme-Mic_Theme/blob/master/readme.md" target="_blank" rel="noopener">miccall/hexo-theme-Mic_Theme</a></p>
-<p>更多Markdown语法请参考：</p>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+<hr>
+<p><strong>注</strong>：</p>
+<p><code>搭建hexo+github借鉴博客</code>：</p>
+<ul>
+<li><p><a href="https://www.cnblogs.com/liuxianan/p/build-blog-website-by-hexo-github.html" target="_blank" rel="noopener">使用hexo+github搭建免费个人博客详细教程</a></p>
+</li>
+<li><p><a href="https://www.cnblogs.com/hsdy/p/10026582.html" target="_blank" rel="noopener">使用Hexo + GitHub Pages 搭建个人博客</a></p>
+</li>
+<li><p><a href="https://github.com/miccall/hexo-theme-Mic_Theme/blob/master/readme.md" target="_blank" rel="noopener">miccall/hexo-theme-Mic_Theme</a></p>
+</li>
+</ul>
+<p><code>更多Markdown语法请参考</code>：</p>
 <p><a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet" target="_blank" rel="noopener">Markdown Here Cheatsheet</a></p>
+<p><code>本博客代码高亮请参考</code>：</p>
+<p><a href="https://github.com/ele828/hexo-prism-plugin" target="_blank" rel="noopener">hexo-prism-plugin</a></p>
 <p>本博客有关gallery图库及tag标签功能有待完善</p>
 
             </div>
