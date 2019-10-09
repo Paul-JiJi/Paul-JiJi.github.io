@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[Image, Fonts and Hyperlinks in Hexo]]></title>
+    <url>%2F2019%2F10%2F08%2Fimage-processing-in-Hexo%2F</url>
+    <content type="text"><![CDATA[图片居中 123&lt;div align=center&gt; &lt;img width=600 src="https://w.wallhaven.cc/full/n6/wallhaven-n695ox.jpg" &gt;&lt;/div&gt; 图片居中 1234&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;img src="https://w.wallhaven.cc/full/n6/wallhaven-n695ox.jpg" border=0&gt;&lt;/td&gt;&lt;td&gt;&lt;img src="https://w.wallhaven.cc/full/n6/wallhaven-n695ox.jpg" border=0&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt; 设置字体颜色和高亮字体颜色 注：删去size默认 倾斜 删除线 高亮 下划线 ctrl+R]]></content>
+      <categories>
+        <category>HEXO</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[National Day travel - LeShan]]></title>
+    <url>%2F2019%2F10%2F08%2FNational-Day-travel-LeShan%2F</url>
+    <content type="text"><![CDATA[张公桥 2019.10.01 20:15成都·天府广场 2019.10.02 15:16成都·电子科技大学清水河校区国庆70周年&amp;校庆63周年2019.10.03 18:53四川·乐山·杨公桥好吃街 2019.10.04 四川·乐山·乐山大佛]]></content>
+      <categories>
+        <category>LIFE</category>
+      </categories>
+      <tags>
+        <tag>life</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Deep Complex Networks]]></title>
+    <url>%2F2019%2F10%2F08%2FDeep-Complex-Networks%2F</url>
+    <content type="text"></content>
+      <categories>
+        <category>DEEP LEARNING</category>
+      </categories>
+      <tags>
+        <tag>deep learning</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <url>%2F2019%2F09%2F29%2Fhello-world%2F</url>
+    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing 注：此方法只产生一个md文件，为了方便管理某一md文件中的图片，可以采用如下代码生成同名的文件夹，并将图片放进去以便于调用： Create a new folder1$ hexo n "md文件名" 参考自：Hexo中添加本地图片 Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy 注：这是我提交md时一般采用的代码：123$ cd /e/hexo_workspace/ #打开hexo工作空间$ hexo g -d$ hexo s #开服务器 More info: Deployment 注： 搭建hexo+github借鉴博客： 使用hexo+github搭建免费个人博客详细教程 使用Hexo + GitHub Pages 搭建个人博客 miccall/hexo-theme-Mic_Theme 更多Markdown语法请参考： Markdown Here Cheatsheet 本博客代码高亮请参考： hexo-prism-plugin 本博客有关gallery图库及tag标签功能有待完善]]></content>
+      <categories>
+        <category>HEXO</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+</search>
