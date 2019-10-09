@@ -146,11 +146,11 @@
 
         <div id="main">
             <div class="post_page_title_img" style="height: 25rem;background-image: url(https://w.wallhaven.cc/full/0q/wallhaven-0qw3vq.jpg);background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;overflow:hidden;">
-                <a href="#" style="padding: 4rem 4rem 2rem 4rem ;"><h2>Image Processing in Hexo</h2></a>
+                <a href="#" style="padding: 4rem 4rem 2rem 4rem ;"><h2>Image, Fonts and Hyperlinks in Hexo</h2></a>
             </div>
             <!-- Post -->
             <div class="typo" style="padding: 3rem;">
-                <h3 id="图片居中"><a href="#图片居中" class="headerlink" title="图片居中"></a>图片居中</h3><div align="center">
+                <h3 id="图片居中"><a href="#图片居中" class="headerlink" title="图片居中"></a><strong>图片居中</strong></h3><div align="center">
   <img width="600" src="https://w.wallhaven.cc/full/n6/wallhaven-n695ox.jpg">
 </div>
 
@@ -158,7 +158,7 @@
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">width</span><span class="token attr-value"><span class="token punctuation">=</span>600</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>https://w.wallhaven.cc/full/n6/wallhaven-n695ox.jpg<span class="token punctuation">"</span></span> <span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
 <hr>
-<h3 id="图片居中-1"><a href="#图片居中-1" class="headerlink" title="图片居中"></a>图片居中</h3><table><tr>
+<h3 id="图片居中-1"><a href="#图片居中-1" class="headerlink" title="图片居中"></a><strong>图片居中</strong></h3><table><tr>
 <td><img src="https://w.wallhaven.cc/full/n6/wallhaven-n695ox.jpg" border="0"></td>
 <td><img src="https://w.wallhaven.cc/full/n6/wallhaven-n695ox.jpg" border="0"></td>
 </tr></table>
@@ -168,13 +168,29 @@
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>https://w.wallhaven.cc/full/n6/wallhaven-n695ox.jpg<span class="token punctuation">"</span></span> <span class="token attr-name">border</span><span class="token attr-value"><span class="token punctuation">=</span>0</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tr</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>table</span><span class="token punctuation">></span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
 <hr>
-<h3 id="设置字体颜色和高亮"><a href="#设置字体颜色和高亮" class="headerlink" title="设置字体颜色和高亮"></a>设置字体颜色和高亮</h3><p><font color="yellow" size="4" face="“黑体”">字体颜色</font></p>
+<h3 id="设置字体颜色和高亮"><a href="#设置字体颜色和高亮" class="headerlink" title="设置字体颜色和高亮"></a><strong>设置字体颜色和高亮</strong></h3><p><font color="yellow" size="4" face="“黑体”">字体颜色</font></p>
 <p>注：删去size默认</p>
 <p><em>倾斜</em></p>
 <p><del>删除线</del></p>
 <p><code>高亮</code></p>
 <p><u>下划线</u></p>
 <p><kbd>ctrl</kbd>+<kbd>R</kbd></p>
+<hr>
+<h3 id="设置超链接格式"><a href="#设置超链接格式" class="headerlink" title="设置超链接格式"></a><strong>设置超链接格式</strong></h3><style>
+a:link    {color:blue;}
+a:visited {color:blue;}
+a:hover   {color:red;}
+a:active  {color:yellow;}
+</style>
+
+<p><a href="https://github.com/ele828/hexo-prism-plugin" target="_blank" rel="noopener">hexo-prism-plugin</a></p>
+<p>代码实现：</p>
+<pre class="line-numbers language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>style</span><span class="token punctuation">></span></span><span class="token style language-css">
+<span class="token selector">a<span class="token pseudo-class">:link</span>    </span><span class="token punctuation">{</span><span class="token property">color</span><span class="token punctuation">:</span>blue<span class="token punctuation">;</span><span class="token punctuation">}</span>  <span class="token selector">#表示未未访问的状态
+a<span class="token pseudo-class">:visited</span> </span><span class="token punctuation">{</span><span class="token property">color</span><span class="token punctuation">:</span>blue<span class="token punctuation">;</span><span class="token punctuation">}</span>  <span class="token selector">#表示已访问过的状态
+a<span class="token pseudo-class">:hover</span>   </span><span class="token punctuation">{</span><span class="token property">color</span><span class="token punctuation">:</span>red<span class="token punctuation">;</span><span class="token punctuation">}</span>  <span class="token selector">#表示鼠标移动到链接上时的状态
+a<span class="token pseudo-class">:active</span>  </span><span class="token punctuation">{</span><span class="token property">color</span><span class="token punctuation">:</span>yellow<span class="token punctuation">;</span><span class="token punctuation">}</span>  #表示鼠标按下去时的状态
+</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>style</span><span class="token punctuation">></span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
             </div>
 
