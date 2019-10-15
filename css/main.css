@@ -1140,7 +1140,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #1a5581;
+  background: #209152;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2287,11 +2287,11 @@ ul.breadcrumb li + li:last-child {
   padding: 0;
   position: absolute;
   top: 0;
-  width: 240px;
+  width: 350px;
 }
 @media (min-width: 1200px) {
   .container .header-inner {
-    width: 240px;
+    width: 350px;
   }
 }
 @media (max-width: 991px) {
@@ -2322,7 +2322,7 @@ ul.breadcrumb li + li:last-child {
   float: right;
   min-height: 700px;
   padding: 40px;
-  width: calc(100% - 252px);
+  width: calc(100% - 362px);
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .content-wrap {
@@ -2344,7 +2344,7 @@ ul.breadcrumb li + li:last-child {
   box-shadow: none;
   float: left;
   position: static;
-  width: 240px;
+  width: 350px;
 }
 @media (max-width: 991px) {
   .sidebar {
@@ -2535,7 +2535,7 @@ ul.breadcrumb li + li:last-child {
   box-shadow: initial;
   box-sizing: border-box;
   color: #555;
-  width: 240px;
+  width: 350px;
   opacity: 0;
 }
 .sidebar-inner.affix {
